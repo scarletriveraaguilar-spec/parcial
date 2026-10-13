@@ -1,10 +1,86 @@
 {
-  "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
+  "option": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "categories": "Categorías",
+    "tutorials": "Tutoriales",
+    "newInventory": "Nuevo ítem de inventario de vehículos"
+  },
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "utilizando",
+    "author": "por el Equipo de Desarrollo de {brand}"
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "content": "ACME Learning Center es una Plataforma educativa, parte de ACME Corporation."
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Vehículos premium y gestión de showroom para tu concesionario."
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "La ruta {unavailable-route} no está disponible.",
+    "go-home": "Ir al Inicio"
+  },
+  "categories": {
+    "title": "Categorías",
+    "id": "ID",
+    "name": "Nombre",
+    "actions": "Acciones",
+    "new": "Nueva Categoría",
+    "confirm-delete": "¿Estás seguro de que quieres eliminar {name}?",
+    "delete-header": "Confirmar Eliminación"
+  },
+  "category": {
+    "new-title": "Crear Nueva Categoría",
+    "edit-title": "Editar Categoría",
+    "name": "Nombre",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "tutorials": {
+    "title": "Tutoriales",
+    "id": "ID",
+    "summary": "Resumen",
+    "category-id": "ID de Categoría",
+    "actions": "Acciones",
+    "new": "Nuevo Tutorial",
+    "confirm-delete": "¿Estás seguro de que quieres eliminar {title}?",
+    "delete-header": "Confirmar Eliminación"
+  },
+  "tutorial": {
+    "new-title": "Crear Nuevo Tutorial",
+    "edit-title": "Editar Tutorial",
+    "title": "Título",
+    "summary": "Resumen",
+    "category": "Categoría",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "errors": {
+    "occurred": "Ocurrieron errores"
+  },
+  "inventory": {
+    "newTitle": "Nuevo ítem de inventario de vehículos",
+    "subtitle": "Agrega vehículos a tu colección",
+    "collections": "Mis colecciones de showroom",
+    "section": "Sección del showroom",
+    "chooseSection": "Selecciona una sección",
+    "vehicle": "Vehículo",
+    "chooseVehicle": "Selecciona un vehículo",
+    "quantity": "Cantidad",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "capacity": "Capacidad disponible",
+    "totalVehicles": "Total de vehículos",
+    "availableCapacity": "Capacidad disponible",
+    "noVehicles": "No hay vehículos",
+    "loading": "Cargando colecciones…",
+    "apiError": "No se pudo conectar con la API local. Inicia json-server en el puerto 3000.",
+    "externalError": "No se pudieron cargar vehículos desde DummyJSON. Inténtalo de nuevo.",
+    "validation": "Selecciona una sección y un vehículo e ingresa una cantidad entera positiva.",
+    "capacityError": "La cantidad supera la capacidad disponible."
   }
 }
