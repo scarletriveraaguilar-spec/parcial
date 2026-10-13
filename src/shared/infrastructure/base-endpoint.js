@@ -1,8 +1,3 @@
-**
-* Reusable endpoint client with CRUD operations over a resource collection.
-*
-* @class BaseEndpoint
-*/
 export class BaseEndpoint {
     /**
      * @param {import('./base-api.js').BaseApi} baseApi - Configured API client owner.
