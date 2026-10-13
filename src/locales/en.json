@@ -1,10 +1,86 @@
 {
-  "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
+  "option": {
+    "home": "Home",
+    "about": "About",
+    "categories": "Categories",
+    "tutorials": "Tutorials",
+    "newInventory": "New Vehicle Inventory Item"
+  },
+  "authoring-phrase": {
+    "intro": "Made with",
+    "use": "using",
+    "author": "by {brand} Developer Team"
+  },
+  "about": {
+    "title": "About Us",
+    "content": "ACME Learning Center is an Education Business Platform, part of ACME Corporation."
+  },
+  "home": {
+    "title": "Home",
+    "content": "Premium Vehicles & Showroom Management Delivered to Your Dealership."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} is not available.",
+    "go-home": "Go Home"
+  },
+  "categories": {
+    "title": "Categories",
+    "id": "ID",
+    "name": "Name",
+    "actions": "Actions",
+    "new": "New Category",
+    "confirm-delete": "Are you sure you want to delete {name}?",
+    "delete-header": "Confirm Deletion"
+  },
+  "category": {
+    "new-title": "Create New Category",
+    "edit-title": "Edit Category",
+    "name": "Name",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "tutorials": {
+    "title": "Tutorials",
+    "id": "ID",
+    "summary": "Summary",
+    "category-id": "Category ID",
+    "actions": "Actions",
+    "new": "New Tutorial",
+    "confirm-delete": "Are you sure you want to delete {title}?",
+    "delete-header": "Confirm Deletion"
+  },
+  "tutorial": {
+    "new-title": "Create New Tutorial",
+    "edit-title": "Edit Tutorial",
+    "title": "Title",
+    "summary": "Summary",
+    "category": "Category",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "occurred": "Errors occurred"
+  },
+  "inventory": {
+    "newTitle": "New Vehicle Inventory Item",
+    "subtitle": "Add Vehicle Inventory Items to Your Collection",
+    "collections": "My Showroom Collections",
+    "section": "Showroom section",
+    "chooseSection": "Select a showroom section",
+    "vehicle": "Vehicle",
+    "chooseVehicle": "Select a vehicle",
+    "quantity": "Quantity",
+    "create": "Create",
+    "cancel": "Cancel",
+    "capacity": "Available capacity",
+    "totalVehicles": "Total Vehicles",
+    "availableCapacity": "Available Capacity",
+    "noVehicles": "No Vehicles",
+    "loading": "Loading showroom collections…",
+    "apiError": "Could not connect to the local API. Start json-server on port 3000.",
+    "externalError": "Could not load vehicles from DummyJSON. Try again.",
+    "validation": "Select a section and vehicle and enter a positive whole quantity.",
+    "capacityError": "Quantity exceeds the available capacity."
   }
 }
